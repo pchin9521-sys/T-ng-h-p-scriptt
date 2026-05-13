@@ -1,0 +1,137 @@
+TỔNG HỢP SCRIPTS NGON NHÉ AE
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <title>T-ng-h-p-script-</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Nền tím nhạt với họa tiết hoa anh đào như trong ảnh */
+        body { 
+            background-color: #e1d5f2; 
+            background-image: url('https://www.transparenttextures.com/patterns/cubes.png'); /* Họa tiết nhẹ */
+            color: #ffffff; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Tiêu đề chính chữ vàng có bóng */
+        .header-title {
+            color: #f1c40f;
+            font-size: 28px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        /* Khung chứa các Card */
+        .container {
+            width: 100%;
+            max-width: 400px;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        /* Style chung cho mỗi loại Card script */
+        .card {
+            background: #000000;
+            border-radius: 15px;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 2px solid transparent;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+
+        .card h2 {
+            font-size: 16px;
+            margin: 0 0 10px 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-transform: uppercase;
+        }
+
+        /* Ô chứa code dán vào game */
+        code {
+            background: #1a1a1a;
+            color: #e0e0e0;
+            padding: 10px;
+            display: block;
+            border-radius: 8px;
+            word-break: break-all;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 12px;
+            border: 1px solid #333;
+        }
+
+        /* Màu sắc neon cho từng loại giống trong ảnh 7137.png */
+        .bounty { border-color: #ff0000; box-shadow: 0 0 15px rgba(255, 0, 0, 0.4); }
+        .bounty h2 { color: #ff4d4d; }
+
+        .dragon { border-color: #00ff00; box-shadow: 0 0 15px rgba(0, 255, 0, 0.4); }
+        .dragon h2 { color: #4dff4d; }
+
+        .gravity { border-color: #a020f0; box-shadow: 0 0 15px rgba(160, 32, 240, 0.4); }
+        .gravity h2 { color: #bf5fff; }
+
+        .vuahub { border-color: #ffa500; box-shadow: 0 0 15px rgba(255, 165, 0, 0.4); }
+        .vuahub h2 { color: #ffb732; }
+
+        /* Nút Copy Link cuối trang */
+        .copy-link-btn {
+            background: #27ae60;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            margin-top: 10px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-title">T-ng-h-p-script-</div>
+
+    <div class="container">
+        <div class="card bounty">
+            <h2>🏴‍☠️ SCRIPTS SĂN BOUNTY 🤯🤔</h2>
+            <code>loadstring(game:HttpGet("https://raw.githubusercontent.com/hermanos-dev/hermanos-hub/refs/heads/main/Loader.lua"))()</code>
+        </div>
+
+        <div class="card dragon">
+            <h2>🐉 SCRIPTS DRAGON FARM 👍🌷</h2>
+            <code>loadstring(game:HttpGet("https://raw.githubusercontent.com/RealRyx/MainDraco/refs/heads/main/DracoMain.lua"))()</code>
+        </div>
+
+        <div class="card gravity">
+            <h2>🌌 SCRIPTS GRAVITY MỚI NHẤT NHÉ 😍😘</h2>
+            <code>loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()</code>
+        </div>
+
+        <div class="card vuahub">
+            <h2>👑 SCRIPTS VUA HUD NHÉ 👑</h2>
+            <code>loadstring(game:HttpGet("https://raw.githubusercontent.com/hihiUGI/ubiquitous-octo-fortnight/refs/heads/main/vudatdz.txt"))()</code>
+        </div>
+        
+        <center>
+            <button class="copy-link-btn">🔗 Copy Link</button>
+        </center>
+    </div>
+
+    <p style="color: #6a1b9a; font-size: 12px; margin-top: 20px; font-weight: bold;">© Design for Blox Fruits Community</p>
+
+</body>
+</html>
